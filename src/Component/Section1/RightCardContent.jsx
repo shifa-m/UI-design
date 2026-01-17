@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const RightCardContent = () => {
+const RightCardContent = (props) => {
   return (
     
              <div className='absolute top-0 left-0 h-full  p-8 flex flex-col justify-between'>
@@ -9,7 +9,7 @@ const RightCardContent = () => {
                                                 <div >
                                                             <p className='text-xl leading-relaxed text-white mb-10 '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur debitis est aperiam placeat, quisquam neque?</p>
                                                             <div className='flex justify-between'>
-                                                                        <button className='bg-blue-600 text-white rounded-full px-7 py-2'>Satisfied</button>
+                                                                        <button className='bg-blue-600 text-white rounded-full px-7 py-2'>{props.tag}</button>
                                                                        
                                                                         <button className='bg-blue-600 text-white rounded-full px-4 py-2'>Arrow</button>
                                                                        
