@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Page1contect from './page1contect'
+import Page1Contect from './page1Contect'
 
 
-const Section1 = () => {
+const Section1 = (props) => {
   return (
     <div className='h-screen w-full '>
       
       <Navbar/>
-      <Page1contect />
+      <Page1Contect users={props.users} />
     </div>
   )
 }
