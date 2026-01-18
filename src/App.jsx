@@ -4,6 +4,7 @@ import Section2 from './Component/Section2/Section2'
 
 
 const App = () => {
+
   const users=[
     {
       img:'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -25,7 +26,7 @@ const App = () => {
   
   return (
    <div>
-    <Section1 users={users}/>
+    <Section1 users={users} />
     <Section2/>
    </div>
       

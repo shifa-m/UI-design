@@ -6,7 +6,7 @@ const Page1contect = (props) => {
   return (
     <div className='py-10 flex items-center gap-10 justify-between h-[90vh]'>
       <LeftContent/>
-      <RightContent user={props.users}/>
+      <RightContent users={props.users}/>
     </div>
   )
 }
