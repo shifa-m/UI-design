@@ -4,10 +4,10 @@ import Left from './Left'
 
 const Section3 = () => {
   return (
-    <div className='bg-blue-300 h-screen w-full'>
-            <div className='pb- pt-4   flex items-center gap-10 justify-between h-[90vh] '>
+    <div className=' h-screen w-full'>
+            <div className=' pb-[10px] pt-1 flex items-center gap-10 justify-between h-100 '>
                          <Right/>
-      <Left/>
+                         <Left/>
             </div>
      
     </div>

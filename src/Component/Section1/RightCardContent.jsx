@@ -3,8 +3,17 @@ import {ArrowRight } from 'lucide-react'
 
 
 const RightCardContent = (props) => {
-
   console.log(props.color)
+
+  const handlerclick =() =>{
+   console.log("Sucessfully logged in");
+  }
+
+  const arrowclick=()=>{
+    console.log("Move forward");
+  }
+
+  
   return (
     
              <div className='absolute top-0 left-0 h-full  p-8 flex flex-col justify-between'>
@@ -12,9 +21,9 @@ const RightCardContent = (props) => {
                                                 <div >
                                                             <p className='text-xl  leading-relaxed text-white mb-10 mt-55'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur debitis est aperiam placeat, quisquam neque?</p>
                                                             <div className='flex justify-between'>
-                                                                        <button style={{backgroundColor:props.color}} className='bg-blue-600 text-white rounded-full px-7 py-2'>Sucessfull</button>
+                                                                        <button onClick={handlerclick} style={{backgroundColor:props.color}} className='bg-blue-600 text-white rounded-full px-7 py-2'>Sucessfull</button>
                                                                        
-                                                                        <button className='bg-blue-600 text-white rounded-full px-4 py-2'><ArrowRight /></button>
+                                                                        <button onClick={arrowclick} className='bg-blue-600 text-white rounded-full px-4 py-2'><ArrowRight /></button>
                                                                        
                                                             </div>
                                                 </div>
